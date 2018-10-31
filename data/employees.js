@@ -1,0 +1,85 @@
+module.exports = [{
+    "name":"Ahmed",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Fred",
+    "photo":"https://news.fiu.edu/wp-content/uploads/Fred-Blevens-headshot.jpg",
+    "scores":[
+        3,
+        2,
+        5,
+        1,
+        1,
+        3,
+        5,
+        3,
+        2,
+        1
+      ]
+  },
+  {
+    "name":"Sam",
+    "photo":"http://www.skheadshots.com/images/headshots/MelissaRe.jpg",
+    "scores":[
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+  },
+  {
+    "name":"Charlie",
+    "photo":"http://www.actorsessentials.com/wp-content/uploads/2012/10/Charlieweb_2839-Edit-Edit.jpg",
+    "scores":[
+        2,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2
+      ]
+  },
+  {
+    "name":"Fido the Office Dog",
+    "photo":"http://4.bp.blogspot.com/-F-7S3bWCnD8/T8zelF2bWVI/AAAAAAAAASA/PN9sXsLIKGw/s1600/caninecrews_kaffko.jpg",
+    "scores":[
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+  }
+
+
+];
+
+
