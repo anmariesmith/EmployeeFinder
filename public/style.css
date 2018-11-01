@@ -1,0 +1,23 @@
+.survey-cont{
+    background: rgba(76, 175, 80, 0.3)
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+h4{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 16pt;
+
+}
+h3{
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: darkgreen;
+}
