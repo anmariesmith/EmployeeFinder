@@ -14,9 +14,6 @@ module.exports = function(app) {
       photo: "",
       employeeDifference: Infinity
     };
-
-    console.log(req.body);
-
     const userData = req.body;
     const userScores = userData.scores;
 
@@ -29,18 +26,10 @@ module.exports = function(app) {
       for (let j = 0; j < currentEmployee.scores.length; j++) {
         const currentEmployeeScore = currentEmployee.scores[j];
         const currentUserScore = userScores[j];
-
-        console.log(currentUserScore);
-        console.log(`----EMPLOYE NAME: ${currentEmployee.name} SCORES----`);
-        console.log(currentEmployeeScore);
-        console.log(`----EMPLOYE NAME: USER INPUT SCORES----`);
-
         totalDifference += Math.abs(
           parseInt(currentEmployeeScore) - parseInt(currentUserScore)
         );
       }
-      console.log(`TOTAL DIFFERENCE: ${totalDifference}`);
-
       if (totalDifference <= bestMatch.employeeDifference) {
         bestMatch.name = currentEmployee.name;
         bestMatch.photo = currentEmployee.photo;
