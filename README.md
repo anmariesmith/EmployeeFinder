@@ -6,9 +6,6 @@ For this project, I built a compatibility-based "EmployeeFinder" application -- 
 ### Usefullness 
 This project could be useful in pairing compatible people to work together on projects, or even assigning desk positions.
 - - - 
-### Submission on BCS
-* Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-- - - 
 ### Instructions
 1. When you open the page, it will show you a greeting with an option to take the survey. 
 2. Fill out the fields to your best ability 
